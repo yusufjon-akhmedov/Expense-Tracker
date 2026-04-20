@@ -55,7 +55,7 @@ This project exists as a portfolio-grade Android codebase rather than a tutorial
 - Optional daily expense reminder powered by WorkManager and notification permission handling on newer Android versions
 
 ## Screenshots
-No product screenshots are committed in the repository yet. Add real device captures here before publishing the portfolio repo.
+No product screenshots are committed in the repository yet.
 
 | Screen | Status |
 | --- | --- |
