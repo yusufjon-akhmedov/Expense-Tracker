@@ -49,7 +49,7 @@ class TransactionsViewModelTest {
             awaitItem()
             viewModel.updateSearch("coffee")
             var updated = awaitItem()
-            while (updated.filter.searchQuery != "coffee") {
+            while (updated.filter.searchQuery != "coffee" || updated.transactions.size != 1) {
                 updated = awaitItem()
             }
             assertEquals("coffee", updated.filter.searchQuery)
